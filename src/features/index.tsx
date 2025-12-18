@@ -1,7 +1,7 @@
+import { ExpedientesSearchPage } from './expedientes-search/ExpedientesSearchPage'
+
 function App() {
-  return (
-    <div className="flex min-h-svh flex-col items-center justify-center"></div>
-  )
+  return <ExpedientesSearchPage />
 }
 
 export default App

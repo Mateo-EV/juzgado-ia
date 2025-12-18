@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "expediente": "EXP-2024-001234",
+    "juzgado": "Juzgado Civil 1",
+    "actoProcesal": "Sentencia",
+    "fecha": "2024-03-15",
+    "estado": "Finalizado"
+  },
+  {
+    "id": "2",
+    "expediente": "EXP-2024-002345",
+    "juzgado": "Juzgado Penal 3",
+    "actoProcesal": "Audiencia",
+    "fecha": "2024-04-20",
+    "estado": "En proceso"
+  },
+  {
+    "id": "3",
+    "expediente": "EXP-2024-003456",
+    "juzgado": "Juzgado Laboral 2",
+    "actoProcesal": "Demanda",
+    "fecha": "2024-05-10",
+    "estado": "Admitido"
+  },
+  {
+    "id": "4",
+    "expediente": "EXP-2024-004567",
+    "juzgado": "Juzgado Civil 1",
+    "actoProcesal": "Resolución",
+    "fecha": "2024-06-05",
+    "estado": "En proceso"
+  },
+  {
+    "id": "5",
+    "expediente": "EXP-2024-005678",
+    "juzgado": "Juzgado Penal 3",
+    "actoProcesal": "Sentencia",
+    "fecha": "2024-07-12",
+    "estado": "Apelado"
+  },
+  {
+    "id": "6",
+    "expediente": "EXP-2024-006789",
+    "juzgado": "Juzgado Familiar 5",
+    "actoProcesal": "Audiencia",
+    "fecha": "2024-08-18",
+    "estado": "En proceso"
+  },
+  {
+    "id": "7",
+    "expediente": "EXP-2024-007890",
+    "juzgado": "Juzgado Civil 1",
+    "actoProcesal": "Demanda",
+    "fecha": "2024-09-25",
+    "estado": "Admitido"
+  },
+  {
+    "id": "8",
+    "expediente": "EXP-2024-008901",
+    "juzgado": "Juzgado Laboral 2",
+    "actoProcesal": "Sentencia",
+    "fecha": "2024-10-30",
+    "estado": "Finalizado"
+  },
+  {
+    "id": "9",
+    "expediente": "EXP-2024-009012",
+    "juzgado": "Juzgado Penal 3",
+    "actoProcesal": "Resolución",
+    "fecha": "2024-11-14",
+    "estado": "En proceso"
+  },
+  {
+    "id": "10",
+    "expediente": "EXP-2024-010123",
+    "juzgado": "Juzgado Familiar 5",
+    "actoProcesal": "Demanda",
+    "fecha": "2024-12-01",
+    "estado": "Admitido"
+  },
+  {
+    "id": "11",
+    "expediente": "EXP-2024-011234",
+    "juzgado": "Juzgado Civil 1",
+    "actoProcesal": "Audiencia",
+    "fecha": "2024-12-15",
+    "estado": "Programado"
+  },
+  {
+    "id": "12",
+    "expediente": "EXP-2025-000001",
+    "juzgado": "Juzgado Laboral 2",
+    "actoProcesal": "Demanda",
+    "fecha": "2025-01-08",
+    "estado": "Nuevo"
+  }
+]
