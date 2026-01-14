@@ -1,21 +1,14 @@
-import { SearchFiltersComponent } from "./components/SearchFilters";
-import { ExpedientesTable } from "./components/ExpedientesTable";
-import { useExpedientesFilter } from "./hooks/useExpedientesFilter";
+import { SearchFiltersComponent } from "@/features/expedientes-search/components/SearchFilters";
+import { ExpedientesTable } from "@/features/expedientes-search/components/ExpedientesTable";
+import { useExpedientesFilter } from "@/features/expedientes-search/hooks/useExpedientesFilter";
 
 export function ExpedientesSearchPage() {
   const {
     filters,
     updateFilter,
     applyFilters,
-    clearFilters,
     filteredExpedientes,
     totalFilteredCount,
-    juzgadosOptions,
-    actosOptions,
-    especialidadOptions,
-    materiaOptions,
-    procesoOptions,
-    estadoOptions,
     columns,
     toggleColumnVisibility,
     sortConfig,
@@ -45,13 +38,6 @@ export function ExpedientesSearchPage() {
             filters={filters}
             onFilterChange={updateFilter}
             onApplyFilters={applyFilters}
-            onClearFilters={clearFilters}
-            juzgadosOptions={juzgadosOptions}
-            actosOptions={actosOptions}
-            especialidadOptions={especialidadOptions}
-            materiaOptions={materiaOptions}
-            procesoOptions={procesoOptions}
-            estadoOptions={estadoOptions}
           />
         </div>
 

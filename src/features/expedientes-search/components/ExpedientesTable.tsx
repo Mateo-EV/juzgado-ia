@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -27,7 +26,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { ArrowUpDown, ArrowUp, ArrowDown, FileText, Settings2 } from "lucide-react";
-import type { Expediente, ColumnConfig, SortConfig } from "../types";
+import type { Expediente, ColumnConfig, SortConfig } from "@/features/expedientes-search/types";
 
 interface ExpedientesTableProps {
   expedientes: Expediente[];

@@ -20,12 +20,6 @@ export interface Expediente {
 }
 
 export interface SearchFilters {
-  juzgado: string;
-  actoProcesal: string;
-  especialidad: string;
-  materia: string;
-  proceso: string;
-  estado: string;
   fechaInicio: string;
   fechaFin: string;
 }
